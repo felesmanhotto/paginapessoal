@@ -1,0 +1,22 @@
+html {background-color: lightblue}
+
+h1 {
+    color: darkslategray;
+    text-align: center;
+}
+
+ul {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0;
+    list-style: none;
+}
+
+li {
+    width: 50%; /* Cada item ocupará 50% da largura da linha */
+    padding: 10px; /* Espaçamento interno */
+    box-sizing: border-box; /* Inclui padding e borda na largura */
+    border: 1px solid #333; /* Borda para separar os itens */
+    color: darkslategray;
+    border-color: darkslategray;
+}

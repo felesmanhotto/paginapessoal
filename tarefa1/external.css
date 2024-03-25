@@ -1,0 +1,115 @@
+html {background-color: lightcyan}
+
+body {
+    margin-right: 100px;
+    margin-left: 100px;
+    text-align: center
+}
+
+h1 {
+    color:green;
+    text-align: center
+}
+
+h2 {
+    color:darkgreen;
+    text-align: center
+}
+
+h3 {
+    color:darkolivegreen;
+    text-align: center
+}
+
+p {
+    text-align: center
+}
+
+nav ul {
+    padding: 0px;
+    margin: 0;
+    list-style-type: none;
+}
+
+nav li {
+    display: inline-block;
+    width: 15%; /* Defina a largura desejada para cada item */
+    margin-right: 0px; /* Adiciona um espaçamento entre os itens */
+    font-size: large;
+}
+
+a {
+    color:rgb(112, 155, 48)
+}
+
+
+.right {
+    text-align: right;
+}
+
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+address {
+    text-align: left
+}
+
+
+.infogeral {
+    text-align: right;
+    line-height: 37pt;
+    margin-left: 75px;
+}
+
+.contato{
+    margin-top: 50px;
+    text-align: left;
+    line-height: 20pt;
+    font-size: larger;
+}
+
+.content1 {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.container1 {
+    width: 100%;
+    max-width:600px; 
+    margin: 0 auto; /* Esta é a propriedade que centraliza o contêiner na página */
+    padding: 0 20px;
+}
+
+
+.container2{
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+.content2 {
+    display: flex;
+    flex-wrap: wrap;
+}
+.container2 p {
+    text-align: center; /* Centraliza o texto */
+    margin: 0; /* Remove margens padrão dos parágrafos */
+    flex: 1; /* Faz com que os parágrafos ocupem o espaço restante */
+    margin-bottom: 50px;
+    margin-top: 50px
+}
+.container2 img {
+    margin-right: 50px;
+    margin-left: 50px;
+    max-width: 800px; 
+    margin: 10 auto; /* Esta é a propriedade que centraliza o contêiner na página */
+    padding: 0 20px;
+    display: inline-block;
+    
+}
+
+.bgcolorlg {
+    background-color: lightgreen;
+}
