@@ -1,8 +1,8 @@
 html {background-color: darkolivegreen}
 
 body {
-    margin-left: 200px;
-    margin-right: 200px;
+    margin-left: 100px;
+    margin-right: 100px;
     text-align: center;
     display: grid;
     background-color: lightcyan;
@@ -169,5 +169,3 @@ address {
         margin-right: 50px;
     };
 }
-
-/* funcionou */
