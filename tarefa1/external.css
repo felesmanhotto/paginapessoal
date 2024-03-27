@@ -25,7 +25,6 @@ h3 {
 }
 
 p {
-    text-align: center;
     font-size: large
 }
 
@@ -37,8 +36,8 @@ nav ul {
 
 nav li {
     display: inline-block;
-    width: 15%; /* Defina a largura desejada para cada item */
-    margin-right: 0px; /* Adiciona um espaçamento entre os itens */
+    width: 15%; 
+    margin-right: 0px; 
     font-size: large;
 }
 
@@ -60,13 +59,13 @@ address {
 
 
 .infogeral {
-    text-align: right;
+    text-align: center;
     line-height: 37pt;
     margin-left: 75px;
 }
 
 .contato{
-    margin-top: 50px;
+    margin-top: 40px;
     text-align: left;
     line-height: 20pt;
     font-size: larger;
@@ -80,10 +79,9 @@ address {
 .container1 {
     width: 100%;
     max-width:600px; 
-    margin: 0 auto; /* Esta é a propriedade que centraliza o contêiner na página */
-    padding: 0 0px;
+    margin: 0 auto;   /*centraliza o bloco do container1*/
+    justify-content: center;
 }
-
 
 .container2{
     display: flex;
@@ -92,18 +90,19 @@ address {
 }
 
 .container2 p {
-    text-align: center; /* Centraliza o texto */
-    margin: 0; /* Remove margens padrão dos parágrafos */
-    flex: 1; /* Faz com que os parágrafos ocupem o espaço restante */
+    text-align: center; 
+    margin-left: 25px;
+    margin-right: 25px;
+    flex: 1; 
     margin-bottom: 50px;
     margin-top: 50px
 }
 .container2 img {
-    margin-right: 50px;
-    margin-left: 50px;
+    margin-right: 25px;
+    margin-left: 25px;
     max-width: 800px; 
-    margin: 10 auto; /* Esta é a propriedade que centraliza o contêiner na página */
-    padding: 0 20px;
+    margin: 10 auto; 
+    padding: 10px;
     display: inline-block;
     
 }
@@ -136,13 +135,13 @@ address {
     }
 
     .infogeral {
-        text-align: center;
+        text-align: center; 
         line-height: 20pt;
         margin-left: 0;
     }
 
     .container2{
-        display: grid;
+        display: block;   /*centralizar as imagens*/
         align-items: center;
         margin-bottom: 10px;
     }
@@ -155,10 +154,8 @@ address {
     .container2 img {
         margin-right: 10px;
         margin-left: 10px;
-        max-width: 800px; 
-        margin: 10 auto; 
         padding: 0px;
-        display: inline-block;
+        
     }
 
 }
@@ -169,3 +166,4 @@ address {
         margin-right: 50px;
     };
 }
+
